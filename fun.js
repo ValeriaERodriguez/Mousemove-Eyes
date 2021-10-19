@@ -1,6 +1,6 @@
 
 
-document.querySelector('body').addEventListener('mousemove',ojitos);
+document.querySelector('body').addEventListener('click','mousemove',ojitos);
         function ojitos(){
             const eyes = document.querySelectorAll('.eyes');
             eyes.forEach(function(eyes){
